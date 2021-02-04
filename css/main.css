@@ -34,6 +34,7 @@
     position:absolute;
     top:0;
     margin-left:70px;
+    z-index:-1;
 }
 
 
@@ -99,7 +100,7 @@
 
 .mainCon01 ul{}
 .mainCon01 li{
-    width:475px;
+    width:25%;
     height:1000px;
     float:left;
     font-size:43px;
