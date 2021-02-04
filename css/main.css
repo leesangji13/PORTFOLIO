@@ -201,7 +201,7 @@
 .gnb p{
     float:right;
 }
-
+.gnb a{}
 
 /*메인컨텐츠02*/
 .mainCon02{
@@ -324,6 +324,7 @@
     background:url(../images/mainCon03Bg01.png) no-repeat center center;
     color:#fff;
 }
+.mainCon03 a{color:#fff;}
 .con03Logo{
     position:absolute;
     top:50px;
