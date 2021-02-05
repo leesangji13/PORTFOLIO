@@ -108,7 +108,7 @@
     position:relative;
 }
 .mainCon01 li a{
-    margin:400px 0;
+    padding:400px 0;
     display:block;
 }
 .mainCon01 li a::after{
@@ -282,7 +282,7 @@
 .con02RightWrap{
     position:absolute;
     right:0;
-    margin-right:10%;
+    margin-right:18%;
     bottom:0;
     font-size:23px;
 }
@@ -604,15 +604,17 @@
 .con10ImgWrap{
     position:relative;
 }
-.mainCon10 img{}
+
 
 .con10IconWrap{
     position:absolute;
     bottom:0;
-    margin-bottom:260px;
-    left:40%;
-    margin-left:-10px;
+    margin-bottom:290px;
+    right:0;
+    margin-right:740px;
 }
+
+
 .con10IconWrap li{
     float:left;
     margin-right:80px;
@@ -620,6 +622,10 @@
 .con10IconWrap li:last-child{
     margin-right:0;
 }
+.con10IconWrap li a{
+    display:block;
+}
+
 
 .con10Txt01{}
 .con10IconWrap li p{
