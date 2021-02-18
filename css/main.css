@@ -108,7 +108,7 @@
     position:relative;
 }
 .mainCon01 li a{
-    padding:400px 0;
+    margin:400px 0;
     display:block;
 }
 .mainCon01 li a::after{
@@ -240,10 +240,15 @@
     display:block;
 }
 
+.con02ps{
+    font-weight:100;
+    color:#636363;
+}
+
 .con02Txt02{
     display:inline-block;
     margin-bottom:50px;
-    margin-top:83px;
+    margin-top:13px;
 }
 .con02Txt02 h4{
     font-weight:600;
@@ -282,7 +287,7 @@
 .con02RightWrap{
     position:absolute;
     right:0;
-    margin-right:18%;
+    margin-right:10%;
     bottom:0;
     font-size:23px;
 }
@@ -314,8 +319,9 @@
     vertical-align:middle;
 }
 .con02RightWrap span:last-child::before{
-    width:327px;
+    width:192px;
 }
+
 
 
 /*메인컨텐츠03*/
@@ -478,7 +484,7 @@
 .mainCon08{
     position:relative;
     background:url(../images/mainCon05Bg02.png) no-repeat center center;
-    padding:200px 0 0 0;
+    padding:199px 0 0 0;
 }
 .mainCon08 .con03Logo img{
     width:300px;
@@ -579,12 +585,44 @@
 
 /*메인컨텐츠09*/
 .mainCon09{
+    margin-top:100px;
+    height:1080px;
+    background:url(../images/mainCon09Bg.png) no-repeat center center;
     position:relative;
 }
 
+.mainCon09 h4{
+    font-size:40px;
+    color:#fff;
+    margin-bottom:50px;
+    float:right;
+    margin-right:200px;
+}
 
 
+.con09Img .slick-slider{
+    outline:none;
+}
+.con09Img img{
+    display:block;
+}
+.mainCon09 a{
+    color:#fff;
+}
 
+.con09Arrow{
+    position:absolute;
+    top:60%;
+    margin-top:-22px;
+    right:100px;
+}
+.con09RA{
+    float:left;
+}
+.con09LA{
+    float:right;
+    margin-left:600px;
+}
 
 /*메인컨텐츠10*/
 .mainCon10{

@@ -81,4 +81,9 @@ $(document).ready(function(){
         },
         })
     
+    $(".con09Img").slick({
+        prevArrow:$(".con09LA"),
+        nextArrow:$(".con09RA"),
+    })
+    
 })
