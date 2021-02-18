@@ -65,6 +65,17 @@ $(document).ready(function(){
             }
         } 
     }  
+    
+    //팝업
+    $(".popWrap,.popCon").hide();
+    $(".popBtn").click(function(){
+        $(".popWrap,.popCon").fadeIn();
+    })
+    $(".popWrap,.popCon").click(function(){
+        $(".popWrap,.popCon").fadeOut();
+    })
+    
+    
     //슬릭슬라이더
     $(".con08ImgWrap").slick({
         dots:true,
@@ -85,5 +96,7 @@ $(document).ready(function(){
         prevArrow:$(".con09LA"),
         nextArrow:$(".con09RA"),
     })
+    
+    
     
 })
