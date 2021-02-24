@@ -91,6 +91,48 @@
   50%{border-right: 1px solid #000} 
   100%{border-right: 1px solid #fff} 
 }
+/*화살표효과*/
+.arrowWrap{}
+.arrow{
+    position:absolute;
+    left:50%;
+    margin-left:-42px;
+    bottom:30px;
+}
+
+.arrow_1{
+    margin-left:53px;
+    animation:arrow_1 1s infinite linear;
+}
+@keyframes arrow_1{
+    0%{opacity:0;}
+}
+
+.arrow_2{
+    margin-left:53px;
+    animation:arrow_2 1s infinite linear;
+}
+@keyframes arrow_2{
+    50%{opacity:0;}
+}
+
+.arrow_3{
+    margin-left:53px;
+    margin-bottom:10px;
+    animation:arrow_3 1s infinite linear;
+}
+@keyframes arrow_3{
+    100%{opacity:0;}
+}
+
+.arrow p{
+    font-weight:100;
+    color:#222;
+    letter-spacing:1px;
+    font-size:15px;
+}
+
+
 
 
 /*메인컨텐츠01*/
@@ -291,6 +333,7 @@
     z-index:1;
 }
 .popCon img{
+    width:70%;
     position:fixed;
     top:0;
     right:0;
